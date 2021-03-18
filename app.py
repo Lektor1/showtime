@@ -1,9 +1,7 @@
-print("pitagora")
-a = float(input("a: "))
-b = float(input("b: "))
+from __init__ import pythagoras
 
-c = (a*a) + (b*b)
-
-c = c**(1/2)
-
-print(f'c: {c}')
+if __name__ == '__main__':
+    print('main')
+    a = int(input('a: '))
+    b = int(input('b: '))
+    print(f'c = {pythagoras(a, b)}')
